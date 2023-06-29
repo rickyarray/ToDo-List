@@ -1,0 +1,64 @@
+/* Body and container styles */
+body {
+    font-family: "Azo Sans", Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  /* Heading styles */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #666;
+    margin-top: 30px;
+}
+
+  /* Input and button styles */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 19px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f5d51e;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+  /* Task list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
